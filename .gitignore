@@ -141,3 +141,14 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# --- Personalizzazioni per Pirate TD .io ---
+# Ignora node_modules in tutte le sottocartelle
+**/node_modules/
+
+# Ignora le cartelle di build di Vite e TypeScript
+**/dist/
+**/build/
+
+# Ignora file specifici di VS Code se usi estensioni locali
+.vscode/
